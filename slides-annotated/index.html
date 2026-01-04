@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*       on 2026-01-04T05:03:57Z       *-->
+<!--*   A recent stable commit (2022-07-01):   *-->
+<!--* 6c761d3dba23af92cba35001c852aac04ae99a5f *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html xmlns:pi="http://pretextbook.org/2020/pretext/internal">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Slides for MATH xxx</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.2/reset.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.2/reveal.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.2/theme/white.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.2/reveal.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.2/plugin/math/math.js"></script><style>
+ul {
+  display: block !important;
+}
+.reveal img {
+  border: 0.5px !important;
+  border-radius: 2px 10px 2px;
+  padding: 4px;
+}
+.reveal pre {
+  box-shadow: none;
+  line-height: 1;
+  font-size: inherit;
+  width: auto;
+  margin: inherit;
+}
+.reveal pre code {
+  display: block;
+  padding: 0;
+  overflow: unset;
+  max-height: unset;
+  word-wrap: normal;
+}
+.definition-like,.theorem-like,.project-like {
+  border-width: 0.5px;
+  border-style: solid;
+  border-radius: 2px 10px 2px;
+  padding: 1%;
+  margin-bottom: var(--r-block-margin);
+}
+.definition-like {
+  background: #006080;
+  background: color-mix(in srgb, var(--r-background-color) 75%, #006080);
+}
+.theorem-like {
+  background: #ff000010;
+  background:  color-mix(in srgb, var(--r-background-color) 75%, #aa0000);
+}
+.proof-like {
+  background: #ffffff;
+  background:  color-mix(in srgb, var(--r-background-color) 75%, #aaaaaa);
+}
+.project-like {
+  background: #60800010;
+  background:  color-mix(in srgb, var(--r-background-color) 75%, #608000);
+}
+.code-inline {
+  background: #60800010;
+  background:  color-mix(in srgb, var(--r-background-color) 75%, var(--r-link-color));
+  padding: 0 3px;
+  border: 1px solid;
+  margin: 3px;
+  display: inline-block;
+}
+.sagecell_sessionOutput {
+  background: white;
+  color: black;
+  border: 0.5px solid var(--r-main-color);
+}
+
+.program {
+  background: #60800010;
+  background:  color-mix(in srgb, var(--r-background-color) 75%, var(--r-link-color));
+  max-height: 450px;
+  overflow: auto;
+  border: 0.5px solid var(--r-main-color);
+}
+.ptx-sagecell, .reveal .program {
+  font-size: calc(var(--r-main-font-size) * 0.6);
+}
+
+
+.ptx-content :is(.image-box, .audio-box, .video-box, .asymptote-box) {
+  position: relative;
+}
+
+.ptx-content iframe.asymptote, .ptx-content iframe.asymptote, .ptx-content .video-box .video, .ptx-content .video-box .video-poster {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+code[class*="language-"], pre[class*="language-"] {
+  padding: 0;
+  line-height: 1.2;
+}
+
+dfn {
+  font-weight: bold;
+}
+.ptx-content ol.no-marker,
+.ptx-content ul.no-marker,
+.ptx-content li.no-marker {
+    list-style-type: none;
+}
+
+.ptx-content ol.decimal {
+    list-style-type: decimal;
+}
+.ptx-content ol.lower-alpha {
+    list-style-type: lower-alpha;
+}
+.ptx-content ol.upper-alpha {
+    list-style-type: upper-alpha;
+}
+.ptx-content ol.lower-roman {
+    list-style-type: lower-roman;
+}
+.ptx-content ol.upper-roman {
+    list-style-type: upper-roman;
+}
+.ptx-content ul.disc {
+    list-style-type: disc;
+}
+.ptx-content ul.square {
+    list-style-type: square;
+}
+.ptx-content ul.circle {
+    list-style-type: circle;
+}
+.ptx-content ol.no-marker,
+.ptx-content ul.no-marker {
+    list-style-type: none;
+}
+.ptx-content .cols1 li,
+.ptx-content .cols2 li,
+.ptx-content .cols3 li,
+.ptx-content .cols4 li,
+.ptx-content .cols5 li,
+.ptx-content .cols6 li {
+    float: left;
+    padding-right:2em;
+}
+
+/* make small images full-width in #sidebyside */
+/* could improve with a .sidebyside class */
+div[style*="display:table-cell"] img {
+    width: 100%;
+}
+          </style>
+</head>
+<body><div class="reveal ptx-content">
+<div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="slides">
+<section><section><h1>Slides for MATH xxx</h1></section></section><section><section><h1>Section 1.1</h1></section><section><h3>[topic]</h3>
+<div align="left"></div></section></section><section><section><h1>Section 1.2</h1></section><section><h3>[topic]</h3>
+<div align="left"><p></p></div></section></section>
+</div>
+</div></body>
+<script>
+Reveal.initialize({
+  controls: true,
+  controlsTutorial: true,
+  controlsLayout: 'bottom-right',
+  controlsBackArrows: 'faded',
+  navigationMode: 'default',
+  progress: false,
+  center: false,
+  hash: true,
+  transition: 'fade',
+  width: "100%",
+  height: "100%",
+  margin: "0.025",
+  math: {
+    mathjax: 'https://cdn.jsdelivr.net/gh/mathjax/mathjax@2.7.8/MathJax.js',
+    config: 'TeX-AMS_HTML-full',
+    // other options are passed into MathJax.Hub.Config()
+    tex2jax: {
+      inlineMath:  [['\\(','\\)']],
+      displayMath: [],
+    }
+  },
+  plugins: [ RevealMath ]
+});
+</script>
+</html>
